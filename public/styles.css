@@ -47,3 +47,20 @@ body {
     background-color: #3e3838;
     padding: 10px 0;
 }
+
+/* contacts.erb styling */
+/* styles for contact count header section */
+.contact-count {
+    background-color: #b8deff;
+    padding: 15px;
+}
+
+.contact-count p {
+    margin: 0;
+}
+
+/* bold and underline the contact count */
+span.contact-count-number {
+    font-weight: 600;
+    text-decoration: underline white;
+}
