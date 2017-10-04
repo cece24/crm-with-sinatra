@@ -7,3 +7,15 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* main header */
+.main-header {
+    text-align: center;
+    background-color: #3e3838;
+    color: white;
+}
+
+.main-header > h1 {
+    padding: 10px;
+    margin: 0;
+}
