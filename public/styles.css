@@ -51,6 +51,9 @@ body {
 /*------
  contacts.erb styling
  ------- */
+ section.contact-list {
+    margin: 10px 20px;
+}
 
 /* styles for contact count header section */
 .contact-count {
