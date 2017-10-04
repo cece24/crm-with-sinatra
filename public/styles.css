@@ -80,3 +80,8 @@ p.contact-name-email {
     font-weight: 600;
     margin: 0;
 }
+
+p.contact-options {
+    display: inline-block;
+    margin: 8px 0;
+}
