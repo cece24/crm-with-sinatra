@@ -19,3 +19,23 @@ body {
     padding: 10px;
     margin: 0;
 }
+
+/* main nav bar */
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+  text-align: center;
+  list-style-type: none;
+  background-color: #d4cbcb;
+  margin: 0 0 1px;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
