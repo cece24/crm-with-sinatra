@@ -1,11 +1,17 @@
+<section class="contact-list">
+
+  <div class="contact-count">
+    <p>There are <span class="contact-count-number"><%= @contacts.length %></span> contacts.</p>
+  </div>
 
   <% @contacts.each do |contact| %>
-    <article>
-      <ul>
-        <li>First Name: <%= contact.first_name %></li>
-        <li>Last Name: <%= contact.last_name %></li>
-        <li>Email: <%= contact.email %></li>
-        <li>Note: <%= contact.note %></li>
-      </ul>
+    <article class="contact-card">
+      <p class="contact-name"><%= contact.full_name %></p>
+        <ul>
+          <li><a href="#">Edit</a></li>|
+          <li><a href="#">Delete</a></li>
+        </ul>
     </article>
   <% end %>
+
+</section>
