@@ -7,6 +7,8 @@
   <% @contacts.each do |contact| %>
     <article class="contact-card">
       <p class="contact-name-email"><%= contact.full_name %> (<%= contact.email %>)</p>
+      <p class="contact-options"><a href="/contacts/<%= contact.id %>">View</a></p>
+      <span>|</span>
       <p class="contact-options"><a href="#">Edit</a></p>
       <span>|</span>
       <p class="contact-options"><a href="#">Delete</a></p>
