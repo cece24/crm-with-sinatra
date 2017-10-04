@@ -39,3 +39,11 @@ body {
   color: white;
   text-decoration: none;
 }
+
+/* footer */
+.footer-bar {
+    text-align: center;
+    color: white;
+    background-color: #3e3838;
+    padding: 10px 0;
+}
