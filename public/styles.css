@@ -48,7 +48,10 @@ body {
     padding: 10px 0;
 }
 
-/* contacts.erb styling */
+/*------
+ contacts.erb styling
+ ------- */
+
 /* styles for contact count header section */
 .contact-count {
     background-color: #b8deff;
@@ -63,4 +66,17 @@ body {
 span.contact-count-number {
     font-weight: 600;
     text-decoration: underline white;
+}
+
+/* contact card */
+article.contact-card {
+    background-color: aliceblue;
+    padding: 15px;
+    margin:  10px 0;
+}
+
+p.contact-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
 }
