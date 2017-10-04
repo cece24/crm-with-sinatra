@@ -7,10 +7,9 @@
   <% @contacts.each do |contact| %>
     <article class="contact-card">
       <p class="contact-name"><%= contact.full_name %></p>
-        <ul>
-          <li><a href="#">Edit</a></li>|
-          <li><a href="#">Delete</a></li>
-        </ul>
+      <p class="contact-edit"><a href="#">Edit</a></p>
+      <span>|</span>
+      <p class="contact-delete"><a href="#">Delete</a></p>
     </article>
   <% end %>
 
