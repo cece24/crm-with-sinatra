@@ -2,4 +2,9 @@
   <p class="">Name: <%= @contact.full_name %></p>
   <p class="">Email: <%= @contact.email %></p>
   <p class="">Note: <%= @contact.note %></p>
+
+  <form class="" action="/contacts/<%= @contact.id %>" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Delete Contact">
+  </form>
 </article>
